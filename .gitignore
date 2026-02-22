@@ -1,0 +1,78 @@
+# ── Python ────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual Environments ──────────────────────────
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# ── Environment Variables / Secrets ──────────────
+.env
+.env.local
+.env.*.local
+*.secret
+
+# ── ML Model Artifacts (large binary files) ──────
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+
+# ── Jupyter Notebooks Checkpoints ────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Data Files (raw & processed) ─────────────────
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.parquet
+*.feather
+
+# ── OS Files ──────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ── IDEs & Editors ────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ── pytest / Testing ──────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# ── Build / Distribution ──────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ── Logs ──────────────────────────────────────────
+*.log
+logs/
+
+# ── Flask ─────────────────────────────────────────
+instance/
+flask_session/
